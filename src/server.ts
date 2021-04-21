@@ -31,3 +31,4 @@ app.listen(3333, () => {
 
 // *codigos*
 // dia 01: missaoespacial
+// dia 02: embuscadoproximonivel
