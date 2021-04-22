@@ -1,10 +1,6 @@
 {
-    "type": "mysql",
-    "host": "localhost",
-    "port": 3306,
-    "username": "root",
-    "password": "2029",
-    "database": "nlw-node-5",
+  "type": "sqlite",
+  "database": "./src/database/database.sqlite",
     "entities": ["./src/entities/**.ts"],
     "migrations": ["./src/database/migrations/**.ts"],
     "cli": {
