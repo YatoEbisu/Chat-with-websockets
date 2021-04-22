@@ -1,12 +1,12 @@
 import { Request, Response } from "express"
-import { SettingsServices } from "../services/SettingsServices";
+import { SettingsService } from "../services/SettingsService";
 
 class SettingsController {
     async create(req: Request, res: Response){
 
         const { chat, username } = req.body;
 
-        const settingsServices = new SettingsServices();
+        const settingsServices = new SettingsService();
 
         try {
 
