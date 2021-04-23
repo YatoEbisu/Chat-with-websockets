@@ -92,7 +92,6 @@ function sendMessage(id) {
 }
 
 socket.on('admin_receive_message', data => {
-  console.log(data);
   const connection = connectionInSupport.find(
     connection => connection.socket_id === data.socket_id,
   );
